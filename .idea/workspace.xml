@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbcd2c0-4d9c-4471-832c-8dd4ffb8b16d" name="Default Changelist" comment="" />
+    <list default="true" id="2dbcd2c0-4d9c-4471-832c-8dd4ffb8b16d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/models/Pessoa.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/views/pessoa/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -31,6 +42,9 @@
     <dirStrings>
       <dir>C:\xampp\htdocs\yii2\basic\models</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,6 +145,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -152,19 +167,14 @@
               <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii2" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pessoa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,6 +184,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -217,18 +228,19 @@
       <workItem from="1557413691134" duration="358000" />
       <workItem from="1557420817621" duration="5557000" />
       <workItem from="1557430217746" duration="4668000" />
-      <workItem from="1557485821372" duration="6026000" />
+      <workItem from="1557485821372" duration="6626000" />
+      <workItem from="1557499767276" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16609000" />
+    <option name="totallyTimeSpent" value="17853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,9 +278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/controllers/ExercicioController.php" />
     <entry file="file://$PROJECT_DIR$/basic/views/exercicio/pessoas.php" />
-    <entry file="file://$PROJECT_DIR$/basic/views/pessoas/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/pessoas/index.php" />
     <entry file="file://$PROJECT_DIR$/basic/controllers/PessoaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -361,7 +371,14 @@
     <entry file="file://$PROJECT_DIR$/basic/models/Pessoa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/pessoa/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
